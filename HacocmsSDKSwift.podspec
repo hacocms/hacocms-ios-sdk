@@ -15,7 +15,7 @@ s.license = { :type => "MIT", :file => "License.md" }
 s.author = { "Seesaa Inc." => "g-hacocms@seesaa.co.jp" }
 s.homepage = "https://hacocms.com/"
 
-s.source = { :git => "https://github.com/hacocms/hacocms-iOS-sdk.git",
+s.source = { :git => "https://github.com/hacocms/hacocms-ios-sdk.git",
              :tag => "#{s.version}" }
 
 s.source_files = "HacocmsSDKSwift/Sources/**/*.swift"

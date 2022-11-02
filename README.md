@@ -39,7 +39,7 @@ pod 'hacoCMSiOSSDK'
 
 Cartfileファイルに下記を追加してください。
 ```
-github "hacocms/hacoCMSiOSSDK"
+github "hacocms/hacocms-ios-sdk"
 ```
 
 ## Swift Package Manager
@@ -52,7 +52,7 @@ import PackageDescription
 let package = Package(
     [...]
     dependencies: [
-        .package(url: "https://github.com/hacocms/hacoCMSiOSSDK.git", from: "1.0.0"),
+        .package(url: "https://github.com/hacocms/hacocms-ios-sdk.git", from: "1.0.0"),
     ]
 )
 ```

@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "HacocmsSDKSwift",
+    name: "hacoCMSiOSSDK",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "HacocmsSDKSwift",
+            name: "hacoCMSiOSSDK",
             targets: ["HacocmsSDKSwift"]),
     ],
     dependencies: [
