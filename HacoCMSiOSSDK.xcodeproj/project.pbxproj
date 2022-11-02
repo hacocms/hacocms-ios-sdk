@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13FBA9292912A51900BECC08 /* HacoCMSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FBA91E2912A51800BECC08 /* HacoCMSiOSSDK.framework */; };
+		13FBA92E2912A51900BECC08 /* HacoCMSiOSSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA92D2912A51900BECC08 /* HacoCMSiOSSDKTests.swift */; };
+		13FBA93A2912A5C400BECC08 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 13FBA9392912A5C400BECC08 /* Moya */; };
+		13FBA9422912A60A00BECC08 /* HacoCMSiOSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FBA93C2912A60A00BECC08 /* HacoCMSiOSSDK.h */; };
+		13FBA9432912A60A00BECC08 /* HacoCmsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA93E2912A60A00BECC08 /* HacoCmsClient.swift */; };
+		13FBA9442912A60A00BECC08 /* HacoEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA93F2912A60A00BECC08 /* HacoEndpoint.swift */; };
+		13FBA9452912A60A00BECC08 /* QueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA9402912A60A00BECC08 /* QueryBuilder.swift */; };
+		13FBA9462912A60A00BECC08 /* HacoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA9412912A60A00BECC08 /* HacoConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13FBA92A2912A51900BECC08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13FBA9152912A51800BECC08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FBA91D2912A51800BECC08;
+			remoteInfo = HacoCMSiOSSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13FBA91E2912A51800BECC08 /* HacoCMSiOSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HacoCMSiOSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FBA9282912A51900BECC08 /* HacoCMSiOSSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HacoCMSiOSSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FBA92D2912A51900BECC08 /* HacoCMSiOSSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HacoCMSiOSSDKTests.swift; sourceTree = "<group>"; };
+		13FBA93C2912A60A00BECC08 /* HacoCMSiOSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HacoCMSiOSSDK.h; sourceTree = "<group>"; };
+		13FBA93E2912A60A00BECC08 /* HacoCmsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HacoCmsClient.swift; sourceTree = "<group>"; };
+		13FBA93F2912A60A00BECC08 /* HacoEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HacoEndpoint.swift; sourceTree = "<group>"; };
+		13FBA9402912A60A00BECC08 /* QueryBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryBuilder.swift; sourceTree = "<group>"; };
+		13FBA9412912A60A00BECC08 /* HacoConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HacoConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13FBA91B2912A51800BECC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FBA93A2912A5C400BECC08 /* Moya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FBA9252912A51900BECC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FBA9292912A51900BECC08 /* HacoCMSiOSSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FBA9142912A51800BECC08 = {
+			isa = PBXGroup;
+			children = (
+				13FBA93B2912A60A00BECC08 /* HacoCMSiOSSDK */,
+				13FBA92C2912A51900BECC08 /* HacoCMSiOSSDKTests */,
+				13FBA91F2912A51800BECC08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13FBA91F2912A51800BECC08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13FBA91E2912A51800BECC08 /* HacoCMSiOSSDK.framework */,
+				13FBA9282912A51900BECC08 /* HacoCMSiOSSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13FBA92C2912A51900BECC08 /* HacoCMSiOSSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				13FBA92D2912A51900BECC08 /* HacoCMSiOSSDKTests.swift */,
+			);
+			path = HacoCMSiOSSDKTests;
+			sourceTree = "<group>";
+		};
+		13FBA93B2912A60A00BECC08 /* HacoCMSiOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				13FBA93C2912A60A00BECC08 /* HacoCMSiOSSDK.h */,
+				13FBA93D2912A60A00BECC08 /* Sources */,
+			);
+			path = HacoCMSiOSSDK;
+			sourceTree = "<group>";
+		};
+		13FBA93D2912A60A00BECC08 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				13FBA93E2912A60A00BECC08 /* HacoCmsClient.swift */,
+				13FBA93F2912A60A00BECC08 /* HacoEndpoint.swift */,
+				13FBA9402912A60A00BECC08 /* QueryBuilder.swift */,
+				13FBA9412912A60A00BECC08 /* HacoConfig.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13FBA9192912A51800BECC08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FBA9422912A60A00BECC08 /* HacoCMSiOSSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13FBA91D2912A51800BECC08 /* HacoCMSiOSSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FBA9322912A51900BECC08 /* Build configuration list for PBXNativeTarget "HacoCMSiOSSDK" */;
+			buildPhases = (
+				13FBA9192912A51800BECC08 /* Headers */,
+				13FBA91A2912A51800BECC08 /* Sources */,
+				13FBA91B2912A51800BECC08 /* Frameworks */,
+				13FBA91C2912A51800BECC08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HacoCMSiOSSDK;
+			packageProductDependencies = (
+				13FBA9392912A5C400BECC08 /* Moya */,
+			);
+			productName = HacoCMSiOSSDK;
+			productReference = 13FBA91E2912A51800BECC08 /* HacoCMSiOSSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13FBA9272912A51900BECC08 /* HacoCMSiOSSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FBA9352912A51900BECC08 /* Build configuration list for PBXNativeTarget "HacoCMSiOSSDKTests" */;
+			buildPhases = (
+				13FBA9242912A51900BECC08 /* Sources */,
+				13FBA9252912A51900BECC08 /* Frameworks */,
+				13FBA9262912A51900BECC08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FBA92B2912A51900BECC08 /* PBXTargetDependency */,
+			);
+			name = HacoCMSiOSSDKTests;
+			productName = HacoCMSiOSSDKTests;
+			productReference = 13FBA9282912A51900BECC08 /* HacoCMSiOSSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13FBA9152912A51800BECC08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					13FBA91D2912A51800BECC08 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					13FBA9272912A51900BECC08 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 13FBA9182912A51800BECC08 /* Build configuration list for PBXProject "HacoCMSiOSSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13FBA9142912A51800BECC08;
+			packageReferences = (
+				13FBA9382912A5C400BECC08 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			productRefGroup = 13FBA91F2912A51800BECC08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13FBA91D2912A51800BECC08 /* HacoCMSiOSSDK */,
+				13FBA9272912A51900BECC08 /* HacoCMSiOSSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13FBA91C2912A51800BECC08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FBA9262912A51900BECC08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13FBA91A2912A51800BECC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FBA9442912A60A00BECC08 /* HacoEndpoint.swift in Sources */,
+				13FBA9452912A60A00BECC08 /* QueryBuilder.swift in Sources */,
+				13FBA9432912A60A00BECC08 /* HacoCmsClient.swift in Sources */,
+				13FBA9462912A60A00BECC08 /* HacoConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FBA9242912A51900BECC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FBA92E2912A51900BECC08 /* HacoCMSiOSSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13FBA92B2912A51900BECC08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13FBA91D2912A51800BECC08 /* HacoCMSiOSSDK */;
+			targetProxy = 13FBA92A2912A51900BECC08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13FBA9302912A51900BECC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13FBA9312912A51900BECC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13FBA9332912A51900BECC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.jp.seesaa.HacoCMSiOSSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13FBA9342912A51900BECC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.jp.seesaa.HacoCMSiOSSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13FBA9362912A51900BECC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.myapp.HacoCMSiOSSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13FBA9372912A51900BECC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.myapp.HacoCMSiOSSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FBA9182912A51800BECC08 /* Build configuration list for PBXProject "HacoCMSiOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FBA9302912A51900BECC08 /* Debug */,
+				13FBA9312912A51900BECC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FBA9322912A51900BECC08 /* Build configuration list for PBXNativeTarget "HacoCMSiOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FBA9332912A51900BECC08 /* Debug */,
+				13FBA9342912A51900BECC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FBA9352912A51900BECC08 /* Build configuration list for PBXNativeTarget "HacoCMSiOSSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FBA9362912A51900BECC08 /* Debug */,
+				13FBA9372912A51900BECC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		13FBA9382912A5C400BECC08 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13FBA9392912A5C400BECC08 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13FBA9382912A5C400BECC08 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 13FBA9152912A51800BECC08 /* Project object */;
+}
