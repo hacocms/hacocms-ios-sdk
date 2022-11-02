@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Example.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
 		<key>HacocmsSDKSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -80,6 +75,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>13381886290235A7004BB9BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>13381890290235A7004BB9BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>133818B029024363004BB9BB</key>
 		<dict>
 			<key>primary</key>
