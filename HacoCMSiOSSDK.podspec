@@ -9,7 +9,7 @@ hacoCMSのiOS用 API クライアントライブラリです。
 EOS
 s.requires_arc = true
 
-s.version = "1.0.0"
+s.version = "1.0.1"
 s.license = { :type => "MIT", :file => "License.md" }
 
 s.author = { "Seesaa Inc." => "g-hacocms@seesaa.co.jp" }
