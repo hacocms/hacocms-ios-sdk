@@ -32,8 +32,8 @@ extension HacoEndpoint {
             return path
         case .getSingleContent(let path):
             return path
-        case .getDetailContent(let path, _, _):
-            return path
+        case .getDetailContent(let path, let contentId, _):
+            return "\(path)/\(contentId)"
         }
     }
 }
