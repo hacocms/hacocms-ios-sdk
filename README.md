@@ -52,7 +52,7 @@ import PackageDescription
 let package = Package(
     [...]
     dependencies: [
-        .package(url: "https://github.com/hacocms/hacocms-ios-sdk.git", from: "1.0.0"),
+        .package(url: "https://github.com/hacocms/hacocms-ios-sdk.git", from: "1.0.1"),
     ]
 )
 ```
