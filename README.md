@@ -56,6 +56,7 @@ let package = Package(
     ]
 )
 ```
+**Minimum Xcode Version**: 13.4
 
 # Step 3. 使い方
 
